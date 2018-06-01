@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: arial, sans-serif;
+  background-color: #fcf3f2;
+}
+
+/* --- Nav --- */
+.main-nav {
+  border-bottom: 10px solid white;
+  background-color: #ffe4e1;
+}
+
+.nav {
+	padding:.75em;
+  margin: 0;
+}
+.nav ul li {
+	margin: 8px;
+}
+
+.nav li {
+	padding: 0 2em;
+	color: #ccb6b4;
+	font-size: 1.5em;
+  display: inline-block;
+}
+
+.nav li a:hover {
+	color: #a39190;
+	cursor: pointer;
+}
+.nav a {
+  text-decoration: none;
+}
+.nav a:visited {
+  text-decoration: none;
+  color: #ccb6b4;
+}
+
+/* --- Main --- */
+
+.main {
+  color: #a39190;
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 3.5em;
+  color: #a39190;
+  margin: 1em;
+}
+.skills h2{
+  text-align: left;
+  font-size: 1.75em;
+  padding-left: 1em;
+  padding-top: 1.5em;
+  color:#CE8D8B;
+}
+.skills ul{
+  font-size: 1em;
+  text-align: left;
+}
+.skills li{
+    display: block;
+    padding-left: 0;
+}
+
+.experience h2 {
+  font-weight: 200;
+  font-size: 3.5em;
+  color: #a39190;
+  margin-top: 0;
+}
+.experience p{
+  color:#7b5453;
+  font-size: 1.25em;
+  margin-top: 0;
+}
+#date {
+  font-size: 1em;
+}
+.experience h3 {
+  font-size: 1.5em;
+  color: #CE8D8B;
+  margin-bottom: .5em;
+}
+.experience div {
+  text-align: left;
+  padding-left: 1.5em;
+}
+.experience ul {
+  font-size: 1em;
+  display: block;
+  padding: .25em;
+  margin-left: 1em;
+  margin-right: 6em;
+}
+div li {
+  display: block;
+  padding-bottom: .75em;
+}
